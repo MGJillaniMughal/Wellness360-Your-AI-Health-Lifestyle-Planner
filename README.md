@@ -31,7 +31,7 @@ The **Wellness360** is a personalized health and fitness agent powered by the Ag
 
 ## 🛠️ Requirements
 
-- **Python 3.9+**
+- **Python 3.11+**
 - **Streamlit**
 - **Agno AI Agent Framework**
 - **dotenv**
