@@ -1,4 +1,4 @@
-# Wellness360: Your AI Health & Lifestyle Planner 🏋️‍♂️
+# Wellness360: Your AI Health & Lifestyle Planner 🏅
 
 The **Wellness360** is a personalized health and fitness agent powered by the Agno AI Agent framework. This app generates tailored dietary, fitness, and activity plans based on user inputs such as age, weight, height, activity level, dietary preferences, fitness goals, and additional personal details.
 
@@ -12,7 +12,7 @@ The **Wellness360** is a personalized health and fitness agent powered by the Ag
 - Supports various dietary preferences such as Keto, Vegetarian, Low Carb, etc.
 - Tailored to the user's country and work type.
 
-### 🏋️‍♂️ Personalized Fitness Plans
+### 🏅 Personalized Fitness Plans
 - Provides customized exercise routines based on individual fitness goals.
 - Covers warm-ups, main workouts, and cool-downs.
 - Includes actionable fitness tips, progress tracking advice, and guidance on proper form.
@@ -48,7 +48,7 @@ The **Wellness360** is a personalized health and fitness agent powered by the Ag
    pip install -r requirements.txt
    ```
 3. Set up your `.env` file with your OpenAI API key:
-   ```
+   ```bash
    OPENAI_API_KEY=your_openai_api_key
    ```
 4. Run the application:
@@ -58,7 +58,30 @@ The **Wellness360** is a personalized health and fitness agent powered by the Ag
 
 ---
 
-## 🧑‍💻 Usage
+## 🧑‍💻 Code Structure
+```
+Wellness360-Your-AI-Health-Lifestyle-Planner/
+├── images/                   # Stores UI images
+│   ├── ui.png                # User Interface preview
+│   ├── workui.png            # Work interface preview
+├── app.py                     # Main application script
+├── requirements.txt           # Dependencies
+├── .env                       # Environment variables (API keys)
+├── README.md                  # Documentation
+```
+
+---
+
+## 💻 UI Previews
+### 🌟 User Interface
+![UI Preview](images/ui.png)
+
+### 🌟 Work Interface
+![WorkUI Preview](images/workui.png)
+
+---
+
+## 🤝 Usage
 1. Enter your details in the sidebar, such as age, weight, height, activity level, dietary preferences, and fitness goals.
 2. Provide any additional input or specific goals in the "Additional Information" text box.
 3. Click "🎯 Generate My Personalized Plan" to receive:
